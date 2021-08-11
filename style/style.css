@@ -26,6 +26,15 @@ header {
   z-index: 1;
 }
 
+header img {
+  width: 8.5rem;
+  transition: width 0.5s;
+}
+
+header.scrolled img {
+  width: 4rem;
+}
+
 section {
   display: flex;
   flex-direction: row;
