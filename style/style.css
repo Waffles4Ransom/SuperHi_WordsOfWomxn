@@ -9,6 +9,7 @@ body {
   color: #15403d;
   margin: 15rem auto 15rem auto;
   max-width: 70rem;
+  transition: background-color 1s;
 }
 
 p {
