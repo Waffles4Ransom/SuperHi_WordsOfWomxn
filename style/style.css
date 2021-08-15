@@ -15,6 +15,7 @@ body {
   margin: 15rem auto 15rem auto;
   max-width: 70rem;
   transition: background-color 1s;
+  overflow-x: hidden;
 }
 
 p {
@@ -65,8 +66,8 @@ section img {
 div.stamps {
   position: absolute;
   top: 0;
-  left: 0;
-  width: 100%;
+  left: 50%;
+  width: 50%;
 }
 
 div.stamps img {
