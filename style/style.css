@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;800&display=swap');
 
+@keyframes spin {
+  0% { transform: translate(-50%, -50%) rotate(0deg);}
+  100% { transform: translate(-50%, -50%) rotate(360deg);}
+}
+
 body {
   font-family: 'Syne', Arial;
   font-size: 2rem;
@@ -67,4 +72,5 @@ div.stamps {
 div.stamps img {
   position: absolute;
   transform: translate(-50%, -50%);
+  animation: spin 30s linear infinite;
 }
